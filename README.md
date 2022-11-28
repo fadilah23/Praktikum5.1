@@ -9,13 +9,14 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
 - Commit dan push repository ke github
 
 ## Flowchart 
+![flowchart](https://user-images.githubusercontent.com/115479946/204206624-c12c76f1-1bcd-4077-abd2-f37a8cf8575d.png)
 
 
 ## Penjelasan Programnya 
 1. Pertama input data sesuai keinginan anda dengan format Dictionary ``data = {}``
 2. Gunakanlah perulangan While True untuk menampilkan data sebanyak banyaknya
 3. Lalu masukan perintah ``c = input("\nPilih Opsi: ")`` untuk memilih opsi (T)ambah, (U)bah,(H)apus   (C)ari, (L)ihat, (K)eluar 
-4. selanjutnya untuk membuat program keluar gunakan perintah 
+4. selanjutnya untuk membuat program keluar gunakan perintah BREAK 
 ``python
     if c.lower() == 'k':
         break
@@ -50,3 +51,16 @@ seperti gambar dibawah ini
 9. Untuk menampilkan pilihan "(H)apus" gunakan fungsi 'elif' kemudian gunakan fungsi ``if nama in data.keys():`` kemudian fungsi'del.data[nama] jika nama yang kita hapus tidak ada dalam tabel maka gunakan fungsi 'else' untuk menampilkan data tidak ada.
 seperti gambar dibawah ini 
 <img width="956" alt="ss10" src="https://user-images.githubusercontent.com/115479946/204201345-740ca9ad-39c8-4f0f-adb6-305894f01db9.png">
+
+
+## Hasil Outputnya
+
+
+<img width="959" alt="OP1" src="https://user-images.githubusercontent.com/115479946/204207103-34ea795e-7b23-4e89-9d61-a7dc5303e4c2.png">
+
+<img width="958" alt="OP2" src="https://user-images.githubusercontent.com/115479946/204207118-e4012538-ea3a-41f5-b486-dc5afe24d48a.png">
+
+<img width="959" alt="OP3" src="https://user-images.githubusercontent.com/115479946/204207124-322e2e67-09b4-485d-8db1-68b82ffa212f.png">
+
+<img width="959" alt="OP4" src="https://user-images.githubusercontent.com/115479946/204207133-313796c1-f6d5-4855-ae3f-c127f1f9d917.png">
+
