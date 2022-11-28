@@ -21,7 +21,7 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
     if c.lower() == 'k':
         break
 ``
-seperti gambar dibawah ini 
+<br>seperti gambar dibawah ini</br> 
 <img width="959" alt="ss1" src="https://user-images.githubusercontent.com/115479946/204201138-cc04e9b1-de97-4460-9f91-9b81b2a7c65d.png">
 
 5. alu jika ingin memilih "(L)ihat" gunakan fungsi 'elif' dan gunakan fungsi ``for tabel in data.values():`` untuk memasukan data kedalam tabel data yang kita inputkan, dengan perintah "l". jika data yang tidak terdaftar = 0
